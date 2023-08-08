@@ -1,0 +1,67 @@
+body{
+    min-height: 100vh;
+    direction: rtl;
+    background-image: url('./images/coffee.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parts{
+    min-height: 300px;
+}
+
+#menu{
+    background-color: white;
+    height: 60px;
+}
+#part2{
+    height: 80vh;
+    background-image: url(./images/takeaway-.png) ,url(./images/caffee.png);
+    background-repeat: no-repeat;
+    background-position: 80% bottom , bottom;
+    background-size: 300px , 100%;
+    
+}
+#part3{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('./images/coffee_bg1.png') ;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 25%;
+}
+#part4{
+    background-color:#fffffd;
+    background-image:  url('./images/coffee_bg2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 15%;
+
+}
+#part5{
+    background-color: #fffffd;
+
+}
+#part6{
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('./images/coffee_bg3.png'),url('./images/coffee_bg4.png');
+    background-repeat: repeat-x;
+    background-position: top , bottom;
+}
+#part7{
+        background-color: #fffffd;
+
+}
+#part8{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('./images/coffee_bg1.png') ;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 20%;
+}
+#footer{
+    background-image: url(./images/pattern1.png);
+    background-size: 280px;
+    height: 200px;
+}
