@@ -96,3 +96,37 @@ body{
     padding: 10px 0;
     text-align: center;
 }
+
+
+.prodact_cards_sale{
+    width: 250px;
+    background-color: #fffaf5;
+    text-align: right;
+    color: #3d2513;
+    padding: 10px;
+}
+.prodact_cards_sale_title{
+    margin-bottom: 0;
+}
+.prodact_cards_sale_img{
+    width: 100%;
+    height: 250px;
+    margin: -135px 0 0px;
+}
+.prodact_cards_sale_desc{
+    width: 100%;
+    display: grid;
+}
+.prodact_cards_sale_matn{
+    margin-bottom: 0.5em;
+}
+.prodact_cards_sale_price{
+    margin: 8px 0 16px;
+}
+.prodact_cards_sale_btn{
+    background-color: #714d37;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
