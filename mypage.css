@@ -45,7 +45,9 @@ body{
 .menu_items{
     margin: 0px 8px;
 }
-
+.left_side{
+    float: left;
+}
 #part2{
     height: 80vh;
     background-image: url(./images/takeaway-.png) ,url(./images/caffee.png);
@@ -54,6 +56,21 @@ body{
     background-size: 300px , 100%;
     
 }
+.center_text{
+    height: 100%;
+    color: #fffaf5;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.btn_header{
+    padding: 10px 20px;
+    background-color: #fffaf5;
+    color: #3d2513;
+}
+
 #part3{
     background-color: rgb(255, 255, 255);
     background-image: url('./images/coffee_bg1.png') ;
@@ -61,6 +78,20 @@ body{
     background-position: left bottom;
     background-size: 25%;
 }
+.img_info{
+    float: right;
+    margin-left: 40px;
+}
+.about{
+    display: flex;
+}
+.img_about{
+    width: 400px;
+}
+pre{
+    white-space: pre-line;
+}
+
 #part4{
     background-color:#fffffd;
     background-image:  url('./images/coffee_bg2.png');
@@ -103,6 +134,16 @@ body{
     overflow-x: scroll;
     padding:120px 0 10px;
 }
+.prodact_sale_container::-webkit-scrollbar{
+    height: 4px;
+}
+.prodact_sale_container::-webkit-scrollbar-track{
+    background-color: #fffaf5;
+}
+.prodact_sale_container::-webkit-scrollbar-thumb{
+    background-color: #936a51;
+}
+
 #part8{
     background-color: rgb(255, 255, 255);
     background-image: url('./images/coffee_bg1.png') ;
@@ -127,8 +168,19 @@ body{
 
 #part10{
     background-color: rgb(255, 255, 255);
-
 }
+.naghd_img{
+    width: 180px;
+    margin: 0 0 20px 16px;
+    float: right;
+}
+.naghd_desc{
+    column-count: 3;
+}
+.naghd_title{
+    column-span: all;
+}
+
 #footer_line{
     background-image: url(./images/pattern1.png);
     background-size: 280px;
